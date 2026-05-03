@@ -91,7 +91,7 @@
   .story-text strong { color: var(--accent); font-weight: 500; }
   .story-img {
     width: 100%; border-radius: 16px; object-fit: cover;
-    height: 280px; object-position: center 20%;
+    height: 320px; object-position: center center;
     box-shadow: 0 8px 30px rgba(0,0,0,0.08);
   }
   .story-img-caption { font-size: 11px; color: var(--muted); text-align: center; margin-top: 8px; }
@@ -114,9 +114,11 @@
   .exp-bullets li { font-size: 13px; color: var(--muted); padding-left: 14px; position: relative; line-height: 1.65; }
   .exp-bullets li::before { content: '—'; position: absolute; left: 0; color: rgba(26,26,24,0.2); }
 
-  .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; }
-  .skill-card { border: 1px solid var(--border); border-radius: 12px; padding: 1.1rem 1.25rem; background: white; }
+  .skills-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+  .skill-card { border: 1px solid var(--border); border-radius: 12px; padding: 1.25rem 1.4rem; background: white; }
+  .skill-card.wide { grid-column: span 3; display: grid; grid-template-columns: 160px 1fr; align-items: center; gap: 1rem; }
   .skill-card-title { font-size: 11px; font-weight: 500; letter-spacing: 0.07em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; }
+  .skill-card.wide .skill-card-title { margin-bottom: 0; }
   .skill-tags { display: flex; flex-wrap: wrap; gap: 6px; }
   .tag { font-size: 12px; padding: 3px 10px; background: var(--accent-light); color: var(--accent); border-radius: 100px; font-weight: 500; }
 
@@ -289,6 +291,7 @@
         <span class="tag">Content calendars</span>
         <span class="tag">LinkedIn marketing</span>
         <span class="tag">Meme marketing</span>
+        <span class="tag">Reels & Shorts</span>
       </div>
     </div>
     <div class="skill-card">
@@ -297,15 +300,17 @@
         <span class="tag">Facebook Ads</span>
         <span class="tag">Google Ads</span>
         <span class="tag">YouTube Ads</span>
+        <span class="tag">Retargeting</span>
         <span class="tag">Automation</span>
       </div>
     </div>
     <div class="skill-card">
-      <div class="skill-card-title">Analytics</div>
+      <div class="skill-card-title">Analytics & Reporting</div>
       <div class="skill-tags">
         <span class="tag">Google Analytics</span>
         <span class="tag">FB Analytics</span>
-        <span class="tag">Reporting</span>
+        <span class="tag">Weekly reports</span>
+        <span class="tag">KPI tracking</span>
       </div>
     </div>
     <div class="skill-card">
@@ -315,6 +320,15 @@
         <span class="tag">Keyword research</span>
         <span class="tag">On-page SEO</span>
         <span class="tag">Copywriting</span>
+      </div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-card-title">Outreach & BD</div>
+      <div class="skill-tags">
+        <span class="tag">LinkedIn outreach</span>
+        <span class="tag">Influencer marketing</span>
+        <span class="tag">Negotiation</span>
+        <span class="tag">Script writing</span>
       </div>
     </div>
   </div>
