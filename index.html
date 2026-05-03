@@ -117,8 +117,8 @@
   .skills-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
   .skill-card { border: 1px solid var(--border); border-radius: 12px; padding: 1.25rem 1.4rem; background: white; }
   .skill-card.wide { grid-column: span 3; display: grid; grid-template-columns: 160px 1fr; align-items: center; gap: 1rem; }
-  .skill-card-title { font-size: 11px; font-weight: 500; letter-spacing: 0.07em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; }
-  .skill-card.wide .skill-card-title { margin-bottom: 0; }
+  .skill-card-title { font-size: 11px; font-weight: 500; letter-spacing: 0.07em; text-transform: uppercase; margin-bottom: 6px; }
+  .skill-card-desc { font-size: 13px; line-height: 1.55; margin-bottom: 12px; }
   .skill-tags { display: flex; flex-wrap: wrap; gap: 6px; }
   .tag { font-size: 12px; padding: 3px 10px; background: var(--accent-light); color: var(--accent); border-radius: 100px; font-weight: 500; }
 
@@ -275,62 +275,84 @@
 <section id="skills">
   <div class="section-label">Skills & tools</div>
   <div class="skills-grid">
-    <div class="skill-card">
-      <div class="skill-card-title">Email Outreach</div>
+
+    <div class="skill-card" style="background:#E8F5EE;">
+      <div class="skill-card-title" style="color:#2D6A4F;">Email Outreach</div>
+      <div class="skill-card-desc" style="color:#1a3d2b;">Cold emails & SMS sequences that get replies and book meetings.</div>
       <div class="skill-tags">
-        <span class="tag">Cold email</span>
-        <span class="tag">Personalization</span>
-        <span class="tag">SMS campaigns</span>
-        <span class="tag">Sequencing</span>
+        <span class="tag" style="background:#c5e8d8;color:#1a4d38;">Cold email</span>
+        <span class="tag" style="background:#c5e8d8;color:#1a4d38;">Personalization</span>
+        <span class="tag" style="background:#c5e8d8;color:#1a4d38;">SMS campaigns</span>
+        <span class="tag" style="background:#c5e8d8;color:#1a4d38;">Sequencing</span>
+        <span class="tag" style="background:#c5e8d8;color:#1a4d38;">Mass outreach</span>
       </div>
     </div>
-    <div class="skill-card">
-      <div class="skill-card-title">Social Media</div>
+
+    <div class="skill-card" style="background:#EEF2FF;">
+      <div class="skill-card-title" style="color:#3730A3;">Social Media</div>
+      <div class="skill-card-desc" style="color:#1e1b5e;">Strategy, viral content and calendars built for real growth.</div>
       <div class="skill-tags">
-        <span class="tag">Strategy</span>
-        <span class="tag">Content calendars</span>
-        <span class="tag">LinkedIn marketing</span>
-        <span class="tag">Meme marketing</span>
-        <span class="tag">Reels & Shorts</span>
+        <span class="tag" style="background:#c7d2fe;color:#1e1b5e;">Strategy</span>
+        <span class="tag" style="background:#c7d2fe;color:#1e1b5e;">Content calendars</span>
+        <span class="tag" style="background:#c7d2fe;color:#1e1b5e;">LinkedIn marketing</span>
+        <span class="tag" style="background:#c7d2fe;color:#1e1b5e;">Meme marketing</span>
+        <span class="tag" style="background:#c7d2fe;color:#1e1b5e;">Reels & Shorts</span>
+        <span class="tag" style="background:#c7d2fe;color:#1e1b5e;">Post creation</span>
+        <span class="tag" style="background:#c7d2fe;color:#1e1b5e;">IG · FB · YT</span>
       </div>
     </div>
-    <div class="skill-card">
-      <div class="skill-card-title">Performance Ads</div>
+
+    <div class="skill-card" style="background:#FEF3C7;">
+      <div class="skill-card-title" style="color:#92400E;">Performance Ads</div>
+      <div class="skill-card-desc" style="color:#451a00;">Paid campaigns across platforms with automation and retargeting.</div>
       <div class="skill-tags">
-        <span class="tag">Facebook Ads</span>
-        <span class="tag">Google Ads</span>
-        <span class="tag">YouTube Ads</span>
-        <span class="tag">Retargeting</span>
-        <span class="tag">Automation</span>
+        <span class="tag" style="background:#fde68a;color:#78350f;">Facebook Ads</span>
+        <span class="tag" style="background:#fde68a;color:#78350f;">Google Ads</span>
+        <span class="tag" style="background:#fde68a;color:#78350f;">YouTube Ads</span>
+        <span class="tag" style="background:#fde68a;color:#78350f;">Display Ads</span>
+        <span class="tag" style="background:#fde68a;color:#78350f;">Retargeting</span>
+        <span class="tag" style="background:#fde68a;color:#78350f;">Automation</span>
       </div>
     </div>
-    <div class="skill-card">
-      <div class="skill-card-title">Analytics & Reporting</div>
+
+    <div class="skill-card" style="background:#FEE2E2;">
+      <div class="skill-card-title" style="color:#991B1B;">Content & SEO</div>
+      <div class="skill-card-desc" style="color:#450a0a;">Writing and research that builds organic traffic and authority.</div>
       <div class="skill-tags">
-        <span class="tag">Google Analytics</span>
-        <span class="tag">FB Analytics</span>
-        <span class="tag">Weekly reports</span>
-        <span class="tag">KPI tracking</span>
+        <span class="tag" style="background:#fecaca;color:#7f1d1d;">Blog writing</span>
+        <span class="tag" style="background:#fecaca;color:#7f1d1d;">Copywriting</span>
+        <span class="tag" style="background:#fecaca;color:#7f1d1d;">Keyword research</span>
+        <span class="tag" style="background:#fecaca;color:#7f1d1d;">On-page SEO</span>
+        <span class="tag" style="background:#fecaca;color:#7f1d1d;">Content quality checks</span>
+        <span class="tag" style="background:#fecaca;color:#7f1d1d;">Title writing</span>
       </div>
     </div>
-    <div class="skill-card">
-      <div class="skill-card-title">Content & SEO</div>
+
+    <div class="skill-card" style="background:#F0FDF4;">
+      <div class="skill-card-title" style="color:#166534;">Analytics & Reporting</div>
+      <div class="skill-card-desc" style="color:#052e16;">Tracking what works, building reports, and spotting bottlenecks.</div>
       <div class="skill-tags">
-        <span class="tag">Blog writing</span>
-        <span class="tag">Keyword research</span>
-        <span class="tag">On-page SEO</span>
-        <span class="tag">Copywriting</span>
+        <span class="tag" style="background:#bbf7d0;color:#14532d;">Google Analytics</span>
+        <span class="tag" style="background:#bbf7d0;color:#14532d;">FB Analytics</span>
+        <span class="tag" style="background:#bbf7d0;color:#14532d;">Weekly reports</span>
+        <span class="tag" style="background:#bbf7d0;color:#14532d;">KPI tracking</span>
+        <span class="tag" style="background:#bbf7d0;color:#14532d;">Sales dashboards</span>
       </div>
     </div>
-    <div class="skill-card">
-      <div class="skill-card-title">Outreach & BD</div>
+
+    <div class="skill-card" style="background:#FDF4FF;">
+      <div class="skill-card-title" style="color:#7E22CE;">Outreach & BD</div>
+      <div class="skill-card-desc" style="color:#2e1065;">Influencer campaigns, LinkedIn prospecting and partnership deals.</div>
       <div class="skill-tags">
-        <span class="tag">LinkedIn outreach</span>
-        <span class="tag">Influencer marketing</span>
-        <span class="tag">Negotiation</span>
-        <span class="tag">Script writing</span>
+        <span class="tag" style="background:#e9d5ff;color:#4c1d95;">LinkedIn outreach</span>
+        <span class="tag" style="background:#e9d5ff;color:#4c1d95;">Influencer marketing</span>
+        <span class="tag" style="background:#e9d5ff;color:#4c1d95;">Price negotiation</span>
+        <span class="tag" style="background:#e9d5ff;color:#4c1d95;">Script writing</span>
+        <span class="tag" style="background:#e9d5ff;color:#4c1d95;">Partnership outreach</span>
+        <span class="tag" style="background:#e9d5ff;color:#4c1d95;">Campaign strategy</span>
       </div>
     </div>
+
   </div>
 </section>
 
